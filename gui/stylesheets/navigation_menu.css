@@ -1,0 +1,11 @@
+/**
+ * This stylesheet fixes the navigation menu. It changes the space between the
+ * elements from a padding to a margin. This results in the clickable area to be
+ * smaller and prevents unwanted clicking of neighbouring menu points.
+*/
+
+/* Navigation menu link area */
+.sy-header__favourites__link {
+    padding: 8px 0;
+    margin-right: 32px;
+}

@@ -1,0 +1,17 @@
+/**
+ * This stylesheet bundles some minor improvements to the style of the page.
+*/
+
+/* Removing colour gradient */
+.toolbar .shade,
+.dashboard-title,
+#leftMenuHeader,
+#arielSearchHeader,
+.arielSearchHeaderSection,
+.grid th,
+.DA_LISTGRID_HEADER_COL,
+.adminHeader,
+.detailsTitle,
+.console-title {
+    background: #ededed;
+}

@@ -1,0 +1,21 @@
+/**
+ * This stylesheet colours the header and navigation menu to represent the
+ * environment you are working in to prevent performing unwanted actions in the
+ * wrong environment. Additonally, it adds the environment name to the header.
+*/
+
+/* Header background colour */
+#topNavLayout {
+    background-color: #ad1f21;
+}
+
+/* Header separator colour */
+.sy-header__favourites {
+    border-color: #6c1314;
+}
+
+/* Environment identifier */
+#topNavProductName::after {
+    margin-left: 32px;
+    content: 'Production';
+}
