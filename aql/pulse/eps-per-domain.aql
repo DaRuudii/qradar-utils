@@ -1,0 +1,35 @@
+# This AQL is intended for use with the Pulse dashboards. For it to work you
+# need to set the following parameters in the dashboard:
+
+# Domain Count: Number of domains to display
+# Timespan: AQL timespan with time unit, e.g. "24 HOURS"
+
+# In the dashboard item settings, the following additional fields have to be
+# configured:
+
+# Data source: AQL
+# Results Limit: 1440*{Domain Count} (e.g. 5 domains would be 7200)
+# Chart Type: Time Series Chart
+# Time (x-axis): Timestamp
+# Dynamic Series
+# Split series by: Domain
+# Values (y-axis): EPS
+
+SELECT starttime/60000 AS minute,
+DATEFORMAT(starttime, 'yyyy-MM-dd HH:mm') AS 'Timestamp',
+DOMAINNAME(domainid) AS 'Domain',
+SUM(eventcount)/60 AS 'EPS'
+FROM events
+WHERE domainid IN (
+    SELECT domainid FROM (
+            SELECT domainid, sum(eventcount)
+            FROM events
+            GROUP BY domainid
+            ORDER BY sum(eventcount) DESC
+            LIMIT {Domain Count}
+            LAST {Timespan}
+        )
+    )
+GROUP BY minute, domainid
+ORDER BY minute, domainid
+LAST {Timespan}
