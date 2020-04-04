@@ -1,0 +1,39 @@
+# This AQL is intended for use with the Pulse dashboards. For it to work you
+# need to set the following parameters in the dashboard:
+
+# Log Source Count: Number of log sources to display
+# Timespan: AQL timespan with time unit, e.g. "24 HOURS"
+
+# In the dashboard item settings, the following additional fields have to be
+# configured:
+
+# Data source: AQL
+# Results Limit: 1440*{Log Source Count} (e.g. 15 Log Sources would be 21600)
+# Chart Type: Time Series Chart
+# Time (x-axis): Timestamp
+# Dynamic Series
+# Split series by: Log Source
+# Values (y-axis): EPS
+
+# The exclusion in the AQL lists the IDs for internal log sources.
+
+
+SELECT starttime/60000 AS minute,
+DATEFORMAT(starttime, 'yyyy-MM-dd HH:mm') AS 'Timestamp',
+LOGSOURCENAME(logsourceid) AS 'Log Source',
+SUM(eventcount)/60 AS 'EPS'
+FROM events
+WHERE logsourceid IN (
+    SELECT logsourceid FROM (
+            SELECT logsourceid, sum(eventcount)
+            FROM events
+            WHERE logsourceid NOT IN (62, 63, 64, 65, 66, 67, 68, 69)
+            GROUP BY logsourceid
+            ORDER BY sum(eventcount) DESC
+            LIMIT {Log Source Count}
+            LAST {Timespan}
+        )
+    )
+GROUP BY minute, logsourceid
+ORDER BY minute, logsourceid
+LAST {Timespan}
