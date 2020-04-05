@@ -10,6 +10,9 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 
 ## Device type list
 
+This list was generated on version 7.4.0 GA. \
+Build number: `20200304205308`
+
 | ID | Long name | Short name |
 | ---: | :--- | :--- |
 | 2 | Snort Open Source IDS | Snort |
