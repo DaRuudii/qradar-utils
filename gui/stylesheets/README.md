@@ -2,6 +2,20 @@
 
 Custom stylesheets for the QRadar web GUI. Some are purely visual, some fix "bugs".
 
+## Features
+
+### environment_identifier.css
+
+Adds a text after the *QRadar* at the top to set a custom identifier. It also changes the color of the top menu ribbon.
+
+### misc_improvements.css
+
+Removes the gradient from various locations.
+
+### navigation_menu.css
+
+Fixes the space between the text in the navigation ribbon at the top. Per default it uses a padding which leads to the non-text space to be part of the clickable area. This can lead to misclicks.
+
 ## Usage
 
 To use these stylesheets you need a browser plugin such as Stylus. It injects custom CSS code into specified webpages.
