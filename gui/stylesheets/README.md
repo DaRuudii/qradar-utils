@@ -6,6 +6,8 @@ Custom stylesheets for the QRadar web GUI. Some are purely visual, some fix "bug
 
 ### environment_identifier.css
 
+![Environment identifier and color change](https://raw.githubusercontent.com/DaRuudii/qradar-utils/master/gui/stylesheets/previews/environent_identification.png)
+
 Adds a text after the *QRadar* at the top to set a custom identifier. It also changes the color of the top menu ribbon.
 
 ### misc_improvements.css
@@ -13,6 +15,10 @@ Adds a text after the *QRadar* at the top to set a custom identifier. It also ch
 Removes the gradient from various locations.
 
 ### navigation_menu.css
+
+| ![Menu hover before fix](https://raw.githubusercontent.com/DaRuudii/qradar-utils/master/gui/stylesheets/previews/navigation_menu_before.png) | ![Menu hover after fix](https://raw.githubusercontent.com/DaRuudii/qradar-utils/master/gui/stylesheets/previews/navigation_menu_after.png) |
+| :---: | :---: |
+| Before | After |
 
 Fixes the space between the text in the navigation ribbon at the top. Per default it uses a padding which leads to the non-text space to be part of the clickable area. This can lead to misclicks.
 
