@@ -10,9 +10,6 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 
 ## Device type list
 
-This list was generated on version 7.4.0 GA. \
-Build number: `20200304205308`
-
 | ID | Long name | Short name |
 | ---: | :--- | :--- |
 | 2 | Snort Open Source IDS | Snort |
@@ -383,7 +380,13 @@ Build number: `20200304205308`
 | 438 | Trend Micro Deep Discovery Director | TrendMicroDeepDiscoveryDirector |
 | 439 | NGINX HTTP Server | Nginx |
 | 440 | Amazon AWS Security Hub | AWSSecurityHub |
+| 442 | Google G Suite Activity Reports | GoogleGSuite |
+| 443 | Microsoft Azure Security Center | MicrosoftAzureSecurityCenter |
 | 444 | osquery | osquery |
 | 445 | Microsoft Azure Active Directory | MicrosoftAzureActiveDirectory |
+| 446 | Kubernetes Auditing | KubernetesAuditing |
+| 447 | IBM Cloud Identity | IBMCloudIdentity |
+| 448 | Cisco Firepower Threat Defense | CiscoFirepowerThreatDefense |
+| 449 | Google Cloud Audit | GoogleCloudAudit |
 | 500 | QRadarAppLogger | QRadarAppLogger |
 | 4000 | IBM Custom DSM | IBMCustomDSM |
