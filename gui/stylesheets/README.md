@@ -41,3 +41,12 @@ Alternatively, if you want to automatically use the latest version, just put the
 @import url("https://cdn.jsdelivr.net/gh/DaRuudii/qradar-utils/gui/stylesheets/navigation_menu.css");
 @import url("https://cdn.jsdelivr.net/gh/DaRuudii/qradar-utils/gui/stylesheets/misc_improvements.css");
 ```
+
+## Known issues
+
+* Using the imported styles as desribed above can lead to some buttons missing in QRadar. (e.g. network interface configuration)
+
+## Notes
+
+These stylesheets were developed and tested in QRadar 7.3.X. Other versions may also work.  
+If there are changes to CSS classes of various objects in the GUI these sytlesheets may not work.
