@@ -332,7 +332,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 386 | STEALTHbits StealthINTERCEPT Alerts | StealthINTERCEPTAlerts |
 | 388 | Cloudera Navigator | ClouderaNavigator |
 | 389 | IBM Security Access Manager for Mobile | SecurityAccessManagerForMobile |
-| 390 | Skyhigh Networks Cloud Security Platform | SkyhighNetworksCloudSecurityPlatform |
+| 390 | McAfee MVISION Cloud | SkyhighNetworksCloudSecurityPlatform |
 | 391 | Aruba ClearPass Policy Manager | ArubaClearPass |
 | 392 | IBM Security Identity Governance | IBMSecurityIdentityGovernance |
 | 393 | Seculert Seculert | SeculertSeculert |
@@ -349,7 +349,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 404 | Palo Alto Endpoint Security Manager | PaloAltoEndpointSecurityManager |
 | 405 | Box | Box |
 | 406 | Radware AppWall | RadwareAppWall |
-| 407 | CrowdStrike Falcon Host | CrowdStrikeFalconHost |
+| 407 | CrowdStrike Falcon | CrowdStrikeFalconHost |
 | 408 | IBM Sense | IBMSense |
 | 409 | CloudLock Cloud Security Fabric | CloudLockCloudSecurityFabric |
 | 410 | Vectra Networks Vectra | VectraNetworksVectra |
@@ -369,11 +369,11 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 425 | Imperva Incapsula | ImpervaIncapsula |
 | 426 | IBM BigFix Detect | IBMBigFixEDR |
 | 427 | Centrify Infrastructure Services | CentrifyServerSuite |
-| 428 | Carbon Black Protection | CarbonBlackProtection |
+| 428 | Carbon Black App Control | CarbonBlackProtection |
 | 429 | Cisco Stealthwatch | CiscoStealthwatch |
 | 431 | Cisco Umbrella | CiscoUmbrella |
 | 433 | Microsoft Windows Defender ATP | MicrosoftWindowsDefenderATP |
-| 434 | VMWare AppDefense | VMWareAppDefense |
+| 434 | VMware AppDefense | VMWareAppDefense |
 | 435 | Cisco Meraki | CiscoMeraki |
 | 436 | Amazon GuardDuty | AmazonGuardDuty |
 | 437 | Cisco AMP | CiscoAMP |
@@ -385,8 +385,17 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 444 | osquery | osquery |
 | 445 | Microsoft Azure Active Directory | MicrosoftAzureActiveDirectory |
 | 446 | Kubernetes Auditing | KubernetesAuditing |
-| 447 | IBM Cloud Identity | IBMCloudIdentity |
+| 447 | IBM Security Verify | IBMCloudIdentity |
 | 448 | Cisco Firepower Threat Defense | CiscoFirepowerThreatDefense |
 | 449 | Google Cloud Audit | GoogleCloudAudit |
+| 450 | Netgate pfSense | NetgatePfSense |
+| 451 | IBM Security Trusteer | IBMSecurityTrusteer |
+| 452 | Microsoft Office 365 Message Trace | Office365MessageTrace |
+| 453 | IBM DLC Metrics | IBMDLCMetrics |
+| 454 | SysFlow | SysFlowTelemetry |
+| 455 | Google Cloud Platform Firewall | GoogleCloudPlatformFirewall |
+| 456 | Amazon AWS Network Firewall | AmazonAWSNetworkFirewall |
+| 457 | Trend Micro Apex Central | TrendApexCentral |
+| 458 | Cloudflare Logs | Cloudflare |
 | 500 | QRadarAppLogger | QRadarAppLogger |
 | 4000 | IBM Custom DSM | IBMCustomDSM |
