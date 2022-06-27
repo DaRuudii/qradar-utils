@@ -304,7 +304,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 358 | CloudPassage Halo | CloudPassageHalo |
 | 359 | CorreLog Agent for IBM zOS | CorreLogAgentforIBMzOS |
 | 360 | WatchGuard Fireware OS | WatchGuardFirewareOS |
-| 361 | IBM Fiberlink MaaS360 | IBMFiberlinkMaaS360 |
+| 361 | IBM MaaS360 Security | IBMFiberlinkMaaS360 |
 | 362 | Trend Micro Deep Discovery Analyzer | TrendMicroDeepDiscoveryAnalyzer |
 | 363 | Resolution1 CyberSecurity | AccessDataInSight |
 | 364 | IBM Privileged Session Recorder | IBMPrivilegedSessionRecorder |
@@ -349,7 +349,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 404 | Palo Alto Endpoint Security Manager | PaloAltoEndpointSecurityManager |
 | 405 | Box | Box |
 | 406 | Radware AppWall | RadwareAppWall |
-| 407 | CrowdStrike Falcon | CrowdStrikeFalconHost |
+| 407 | CrowdStrike Falcon | CrowdStrikeFalcon |
 | 408 | IBM Sense | IBMSense |
 | 409 | CloudLock Cloud Security Fabric | CloudLockCloudSecurityFabric |
 | 410 | Vectra Networks Vectra | VectraNetworksVectra |
@@ -372,8 +372,9 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 428 | Carbon Black App Control | CarbonBlackProtection |
 | 429 | Cisco Stealthwatch | CiscoStealthwatch |
 | 431 | Cisco Umbrella | CiscoUmbrella |
+| 432 | IBM Cloud Activity Tracker | IBMActivityTracker |
 | 433 | Microsoft Windows Defender ATP | MicrosoftWindowsDefenderATP |
-| 434 | VMware AppDefense | VMWareAppDefense |
+| 434 | VMware AppDefense | VMwareAppDefense |
 | 435 | Cisco Meraki | CiscoMeraki |
 | 436 | Amazon GuardDuty | AmazonGuardDuty |
 | 437 | Cisco AMP | CiscoAMP |
@@ -397,5 +398,11 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 456 | Amazon AWS Network Firewall | AmazonAWSNetworkFirewall |
 | 457 | Trend Micro Apex Central | TrendApexCentral |
 | 458 | Cloudflare Logs | Cloudflare |
+| 460 | Amazon AWS Application Load Balancer Access Logs | AmazonAWSALBAccessLogs |
 | 500 | QRadarAppLogger | QRadarAppLogger |
+| 501 | Amazon AWS WAF | AmazonAWSWAF |
+| 502 | Amazon AWS Elastic Kubernetes Service | AmazonAWSKubernetes |
+| 504 | Red Hat Advanced Cluster Security for Kubernetes | RedhatKubernetes |
+| 506 | Suricata | Suricata |
+| 507 | Amazon AWS Route 53 | AmazonAWSRoute53 |
 | 4000 | IBM Custom DSM | IBMCustomDSM |
