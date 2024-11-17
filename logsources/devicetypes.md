@@ -108,7 +108,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 136 | Nortel Secure Router | NortelSR |
 | 138 | OpenBSD OS | OpenBSD |
 | 139 | Juniper EX-Series Ethernet Switch | JuniperEXSeries |
-| 140 | BeyondTrust PowerBroker | PowerBroker |
+| 140 | BeyondTrust Privilege Management for Unix, Linux and Networked Devices | PowerBroker |
 | 141 | Oracle Database Listener | OracleDBListener |
 | 142 | Samhain HIDS | Samhain |
 | 143 | Bridgewater Systems AAA Service Controller | BridgewaterAAA |
@@ -291,7 +291,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 345 | Arbor Networks Pravail | ArborNetworksPravail |
 | 346 | IBM Security Trusteer Apex Advanced Malware Protection | TrusteerEnterpriseProtection |
 | 347 | Amazon AWS CloudTrail | AmazonAWSCloudTrail |
-| 348 | IBM Security Directory Server | IBMSecurityDirectoryServer |
+| 348 | IBM Security Verify Directory | IBMSecurityDirectoryServer |
 | 349 | Extreme A4-Series | A4Series |
 | 350 | Extreme B5-Series | B5Series |
 | 351 | Extreme C5-Series | C5Series |
@@ -349,7 +349,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 404 | Palo Alto Endpoint Security Manager | PaloAltoEndpointSecurityManager |
 | 405 | Box | Box |
 | 406 | Radware AppWall | RadwareAppWall |
-| 407 | CrowdStrike Falcon | CrowdStrikeFalcon |
+| 407 | CrowdStrike Falcon Host | CrowdStrikeFalconHost |
 | 408 | IBM Sense | IBMSense |
 | 409 | CloudLock Cloud Security Fabric | CloudLockCloudSecurityFabric |
 | 410 | Vectra Networks Vectra | VectraNetworksVectra |
@@ -361,7 +361,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 416 | Illumio Adaptive Security Platform | IllumioAdaptiveSecurityPlatform |
 | 418 | Aruba Introspect | Niara |
 | 419 | Cisco Cloud Web Security | CiscoCWS |
-| 420 | Centrify Identity Platform | CentrifyIdentityPlatform |
+| 420 | CyberArk Identity | CentrifyIdentityPlatform |
 | 421 | IBM SAN Volume Controller | IBMSANVolumeController |
 | 422 | LightCyber Magna | LightCyberMagna |
 | 423 | Fasoo Enterprise DRM | FasooFED |
@@ -373,7 +373,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 429 | Cisco Stealthwatch | CiscoStealthwatch |
 | 431 | Cisco Umbrella | CiscoUmbrella |
 | 432 | IBM Cloud Activity Tracker | IBMActivityTracker |
-| 433 | Microsoft Windows Defender ATP | MicrosoftWindowsDefenderATP |
+| 433 | Microsoft 365 Defender | MicrosoftWindowsDefenderATP |
 | 434 | VMware AppDefense | VMwareAppDefense |
 | 435 | Cisco Meraki | CiscoMeraki |
 | 436 | Amazon GuardDuty | AmazonGuardDuty |
@@ -382,9 +382,9 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 439 | NGINX HTTP Server | Nginx |
 | 440 | Amazon AWS Security Hub | AWSSecurityHub |
 | 442 | Google G Suite Activity Reports | GoogleGSuite |
-| 443 | Microsoft Azure Security Center | MicrosoftAzureSecurityCenter |
+| 443 | Microsoft Defender for Cloud | MicrosoftAzureSecurityCenter |
 | 444 | osquery | osquery |
-| 445 | Microsoft Azure Active Directory | MicrosoftAzureActiveDirectory |
+| 445 | Microsoft Entra ID | MicrosoftAzureActiveDirectory |
 | 446 | Kubernetes Auditing | KubernetesAuditing |
 | 447 | IBM Security Verify | IBMCloudIdentity |
 | 448 | Cisco Firepower Threat Defense | CiscoFirepowerThreatDefense |
@@ -399,10 +399,27 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 457 | Trend Micro Apex Central | TrendApexCentral |
 | 458 | Cloudflare Logs | Cloudflare |
 | 460 | Amazon AWS Application Load Balancer Access Logs | AmazonAWSALBAccessLogs |
+| 461 | Google Cloud Platform - Cloud DNS | GoogleCloudDNS |
 | 500 | QRadarAppLogger | QRadarAppLogger |
 | 501 | Amazon AWS WAF | AmazonAWSWAF |
 | 502 | Amazon AWS Elastic Kubernetes Service | AmazonAWSKubernetes |
+| 503 | Zscaler Private Access | ZscalerPrivateAccess |
 | 504 | Red Hat Advanced Cluster Security for Kubernetes | RedhatKubernetes |
 | 506 | Suricata | Suricata |
 | 507 | Amazon AWS Route 53 | AmazonAWSRoute53 |
+| 508 | Cisco Duo | CiscoDuo |
+| 512 | IBM Security QRadar EDR | IBMSecurityReaQta |
+| 516 | Amazon CloudFront | AmazonCloudFront |
+| 517 | IBM Security Randori Recon | IBMSecurityRandoriRecon |
+| 518 | IBM Red Hat OpenShift | IBMRedHatOpenShift |
+| 519 | AWS Verified Access | AWSVerifiedAccess |
+| 520 | IBM Security Guardium Insights | GuardiumInsights |
+| 525 | Cisco Secure Workload | CiscoSecureWorkload |
+| 528 | CrowdStrike Falcon Data Replicator | CrowdStrikeFalconDataReplicator |
+| 529 | PingFederate | PingFederate |
+| 530 | MVSCount | IBMManageVirtualServer |
+| 531 | Snowflake | Snowflake |
+| 534 | Sophos Central | SophosCentral |
 | 4000 | IBM Custom DSM | IBMCustomDSM |
+
+This list was generated on version 7.5.0.10-01 (2021.6.10.20241028190757).
