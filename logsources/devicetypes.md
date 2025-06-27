@@ -374,7 +374,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 431 | Cisco Umbrella | CiscoUmbrella |
 | 432 | IBM Cloud Activity Tracker | IBMActivityTracker |
 | 433 | Microsoft 365 Defender | MicrosoftWindowsDefenderATP |
-| 434 | VMware AppDefense | VMwareAppDefense |
+| 434 | VMware AppDefense | VMWareAppDefense |
 | 435 | Cisco Meraki | CiscoMeraki |
 | 436 | Amazon GuardDuty | AmazonGuardDuty |
 | 437 | Cisco AMP | CiscoAMP |
@@ -420,6 +420,12 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 530 | MVSCount | IBMManageVirtualServer |
 | 531 | Snowflake | Snowflake |
 | 534 | Sophos Central | SophosCentral |
+| 434 | VMware AppDefense | VMWareAppDefense |
+| 536 | IBM Storage Protect | IBMStorageProtect |
+| 537 | Microsoft Azure Monitor Agent Linux | MicrosoftAzureMonitorAgentLinux |
+| 538 | IBM Defender Data Protect | IBMDefenderDataProtect |
+| 539 | Oracle Cloud Infrastructure | OracleCloudInfrastructure |
+| 540 | VMWare AVIWAF and Load Balancer | VMWareAVIWAFLoadBalancer |
 | 4000 | IBM Custom DSM | IBMCustomDSM |
 
-This list was generated on version 7.5.0.10-01 (2021.6.10.20241028190757).
+This list was generated on version 7.5.0.12-00 (2021.6.12.20250509154206).
