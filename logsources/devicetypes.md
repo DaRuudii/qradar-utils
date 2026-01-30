@@ -371,7 +371,7 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 427 | Centrify Infrastructure Services | CentrifyServerSuite |
 | 428 | Carbon Black App Control | CarbonBlackProtection |
 | 429 | Cisco Stealthwatch | CiscoStealthwatch |
-| 431 | Cisco Umbrella | CiscoUmbrella |
+| 431 | Cisco SSE | CiscoUmbrella |
 | 432 | IBM Cloud Activity Tracker | IBMActivityTracker |
 | 433 | Microsoft 365 Defender | MicrosoftWindowsDefenderATP |
 | 434 | VMware AppDefense | VMWareAppDefense |
@@ -420,12 +420,17 @@ psql -U qradar -c "select id, devicetypedescription, devicetypename from sensord
 | 530 | MVSCount | IBMManageVirtualServer |
 | 531 | Snowflake | Snowflake |
 | 534 | Sophos Central | SophosCentral |
-| 434 | VMware AppDefense | VMWareAppDefense |
 | 536 | IBM Storage Protect | IBMStorageProtect |
 | 537 | Microsoft Azure Monitor Agent Linux | MicrosoftAzureMonitorAgentLinux |
 | 538 | IBM Defender Data Protect | IBMDefenderDataProtect |
 | 539 | Oracle Cloud Infrastructure | OracleCloudInfrastructure |
 | 540 | VMWare AVIWAF and Load Balancer | VMWareAVIWAFLoadBalancer |
+| 541 | Juniper Mist | JuniperMist |
+| 542 | Fortinet FortiWeb Firewall | FortiWeb |
+| 543 | Trend Micro Vision One | TrendMicroVisionOne |
+| 544 | Microsoft Azure Firewall | MicrosoftAzureFirewall |
+| 545 | ARCON Privileged Access Management | ArconPAM |
+| 546 | HashiCorp Vault | HashiCorpVault |
 | 4000 | IBM Custom DSM | IBMCustomDSM |
 
-This list was generated on version 7.5.0.12-00 (2021.6.12.20250509154206).
+This list was generated on version 7.5.0.14-04 (2021.6.14.20251017194912).
